@@ -9,12 +9,12 @@
   <body>
     <h1>Up and Running with Serverless Functions</h1>
     <button id="fetch-btn">Fetch</button>
-    <<button id="fetch-pokedex-btn">Fetch Pokedex</button>
+    <button id="fetch-pokedex-btn">Fetch Pokedex</button>
     <p id="response-output">Response Placeholder</p>
 
     <script>
     
-      document.addEventListener('DOMContentLoaded', () => {
+      document.addEventListener('DOMContentLoaded', async() => {
         const fetchBtn = document.getElementById('fetch-btn');
         const fetchPokedexBtn = document.getElementById('fetch-pokedex-btn');
         const responseText = document.getElementById('response-output');
